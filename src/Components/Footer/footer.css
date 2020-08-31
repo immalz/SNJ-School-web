@@ -1,0 +1,31 @@
+.footer {
+    height: 100px;
+    background-color: #e3e4e5;
+}
+
+.section-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "direccion contacto redes-sociales";
+}
+
+.fab{
+    font-size: 50px;
+    margin: 0 10px 0 10px;
+}
+
+.direccion {
+    width: 100%;
+    grid-area: direccion;
+}
+.contacto {
+    width: 100%;
+    grid-area: contacto;
+}
+.redes-sociales{
+    width: 100%;
+    grid-area: redes-sociales;
+} 
+
+
+
